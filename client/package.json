@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "prosemirror-example-setup": "^1.2.1",
+    "prosemirror-keymap": "^1.2.0",
+    "prosemirror-state": "^1.4.2",
+    "prosemirror-view": "^1.29.1",
+    "y-prosemirror": "^1.2.0",
+    "y-websocket": "^1.4.5",
+    "yjs": "^13.5.43"
+  }
+}
